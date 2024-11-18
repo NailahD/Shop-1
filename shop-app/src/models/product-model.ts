@@ -1,8 +1,9 @@
 import { ObjectId } from "mongodb";
 
 export interface Product {
-    id?: ObjectId;
-    displayName: string;
+    _id?: ObjectId;
+    name: string;
+    price: number;
     photoURL?: string;
-    darkTheme: boolean;
 };
+
